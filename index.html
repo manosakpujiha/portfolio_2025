@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manos Akpujiha Portfolio</title>
+  <!-- More legible font: Open Sans -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-p6F8BSeB+yOtmW+vg9EVCOb1ZoI+ezc8/VRaeKYIDUuDxGbknZpcAAzT+9p3J8N3LcjR+05QwChlAGZ81a1f9g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Animate.css for scroll animations -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+ <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="animate__animated animate__fadeInDown">
+    <ul>
+      <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+      <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+      <li><a href="#skills"><i class="fas fa-cogs"></i> Skills</a></li>
+      <li><a href="#experience"><i class="fas fa-briefcase"></i> Work Experience</a></li>
+      <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+      <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+    </ul>
+  </nav>
+  
+  <!-- Header / Hero -->
+  <header id="home" class="animate__animated animate__fadeInUp">
+    <h1>Manos Akpujiha</h1>
+    <p>Software Developer • Full-stack &amp; Mobile Applications</p>
+  </header>
+  
+  <!-- About Section -->
+  <section id="about" class="animate__animated animate__fadeInUp">
+    <h2 class="section-title"><i class="fas fa-user"></i> About Me</h2>
+    <div class="divider"></div>
+    <p>
+      I am a Motivated and detail-oriented Software Developer with expertise in both front-end and back-end 
+      development. I design, test, and maintain web systems with proficiency in JavaScript, C#, ASP.NET Core, and more. 
+      I enjoy crafting scalable solutions and collaborating effectively in team environments. 
+    </p>
+    <p>
+      Based in Sudbury, ON, Canada, I am passionate about building innovative applications and continuously learning new technologies.
+    </p>
+  </section>
+  
+  <!-- Projects Section -->
+  <section id="projects" class="animate__animated animate__fadeInUp">
+    <h2 class="section-title"><i class="fas fa-project-diagram"></i> Projects</h2>
+    <div class="divider"></div>
+    <div class="projects-grid">
+      <!-- ClubRecipee -->
+      <div class="project-card animate__animated animate__fadeInUp">
+        <header>ClubRecipee</header>
+        <iframe src="https://club-recipee.vercel.app/" title="ClubRecipee Preview"></iframe>
+        <div class="content">
+          <p><strong>Description:</strong> A full-stack recipe management app allowing users to create, share, and explore recipes within a 
+            community-driven platform. Features include secure image uploads with Cloudinary and user authentication with Passport.js.
+        </p>
+          <p><strong>Technologies:</strong> Node.js, Express.js, MongoDB, EJS, Cloudinary, Passport.js</p>
+          <div class="links">
+            <a href="https://club-recipee.vercel.app/" target="_blank">Live Site</a>
+            <a href="https://github.com/manosakpujiha/ClubRecipee" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <!-- MoviesZone -->
+      <div class="project-card animate__animated animate__fadeInUp">
+        <header>MoviesZone</header>
+        <iframe src="https://manos-movieszone.netlify.app/" title="MoviesZone Preview"></iframe>
+        <div class="content">
+          <p><strong>Description:</strong> A web app for watching movie trailers and teasers. Users can sign in, create watchlists, and leave reviews.</p>
+          <p><strong>Technologies:</strong> React, Firebase, Firestore, Stripe, TMDB API, YouTube API</p>
+          <div class="links">
+            <a href="https://manos-movieszone.netlify.app/" target="_blank">Live Site</a>
+            <a href="https://github.com/manosakpujiha/movies-zone" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <!-- YouStore -->
+      <div class="project-card animate__animated animate__fadeInUp">
+        <header>YouStore</header>
+        <iframe src="https://youstore-staging.netlify.app/" title="YouStore Preview"></iframe>
+        <div class="content">
+          <p><strong>Description:</strong> A collaborative e-commerce platform featuring admin, merchant, and customer sections for product management and purchases.</p>
+          <p><strong>Technologies:</strong> Vue.js (Nuxt), Tailwind, Figma, Jira</p>
+          <div class="links">
+            <a href="https://youstore-staging.netlify.app/" target="_blank">Live Site</a>
+          </div>
+        </div>
+      </div>
+      <!-- StudentHub -->
+      <div class="project-card animate__animated animate__fadeInUp">
+        <header>StudentHub</header>
+        <iframe src="https://studentmanagmentapi.azurewebsites.net/" title="StudentHub Preview"></iframe>
+        <div class="content">
+          <p><strong>Description:</strong> A RESTful API for managing student records and academic performance. Supports CRUD operations with secure authentication.</p>
+          <p><strong>Technologies:</strong> C#, ASP.NET Core 8.0, SQLite, JWT-Authentication, JavaScript</p>
+          <div class="links">
+            <a href="https://studentmanagmentapi.azurewebsites.net/" target="_blank">Live Site</a>
+            <a href="https://github.com/manosakpujiha/StudentManagementAPI" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <!-- ShoppersMobile -->
+      <div class="project-card animate__animated animate__fadeInUp">
+        <header>ShoppersMobile</header>
+        <iframe src="https://shoppersmobiletwo.netlify.app/" title="ShoppersMobile Preview"></iframe>
+        <div class="content">
+          <p><strong>Description:</strong> A Progressive Web App for managing shared shopping lists with real-time updates powered by Firebase.</p>
+          <p><strong>Technologies:</strong> HTML, CSS, JavaScript, Firebase</p>
+          <div class="links">
+            <a href="https://shoppersmobiletwo.netlify.app/" target="_blank">Live Site</a>
+            <a href="https://github.com/manosakpujiha/shoppingListMobileApp" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <!-- ShoppersMobileMaui (Sixth Project) -->
+      <div class="project-card animate__animated animate__fadeInUp">
+        <header>ShoppersMobileMaui</header>
+        <!-- Embed the Figma design using Figma's embed URL -->
+        <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2F1IuTQb8vmax451K6zIzatw%2FShoppersMobile-UI-Design%3Fnode-id%3D41-3%26t%3DKMrT9h4hIfVnuRvZ-0" title="ShoppersMobileMaui Preview"></iframe>
+        <div class="content">
+          <p><strong>Description:</strong> ShoppersMobileMaui is a cross-platform mobile application built using .NET MAUI. It provides a native mobile interface for managing shared shopping lists with real-time updates and offline capabilities, offering a seamless experience on both iOS and Android devices.</p>
+          <p><strong>Technologies:</strong> .NET MAUI, C#, XAML, (and supporting libraries)</p>
+          <div class="links">
+            <a href="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2F1IuTQb8vmax451K6zIzatw%2FShoppersMobile-UI-Design%3Fnode-id%3D41-3%26t%3DKMrT9h4hIfVnuRvZ-0" target="_blank">UI/UX Design</a>
+            <a href="https://github.com/manosakpujiha/ShoppersMobileMaui" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Skills Section -->
+  <section id="skills" class="animate__animated animate__fadeInUp">
+    <h2 class="section-title"><i class="fas fa-cogs"></i> Skills</h2>
+    <div class="divider"></div>
+    <div class="skills-container">
+      <!-- Front-End Category -->
+      <div class="skill-category animate__animated animate__fadeInUp">
+        <h3><i class="fas fa-laptop-code"></i> Front-End</h3>
+        <ul>
+          <li>HTML5</li>
+          <li>JavaScript</li>
+          <li>Tailwind CSS</li>
+          <li>Bootstrap</li>
+          <li>Vue.js (Nuxt)</li>
+          <li>React</li>
+        </ul>
+      </div>
+      <!-- Back-End Category -->
+      <div class="skill-category animate__animated animate__fadeInUp">
+        <h3><i class="fas fa-server"></i> Back-End</h3>
+        <ul>
+          <li>Node.js</li>
+          <li>Express</li>
+          <li>ASP.NET Core</li>
+          <li>MongoDB</li>
+          <li>MySQL</li>
+        </ul>
+      </div>
+      <!-- Mobile Development Category -->
+      <div class="mobile-development animate__animated animate__fadeInUp">
+        <h3><i class="fas fa-mobile-alt"></i> Mobile Development</h3>
+        <ul>
+          <li>.NET MAUI</li>
+          <li>Kotlin Multiplatform</li>
+        </ul>
+      </div>
+      <!-- Tools & Other Category -->
+      <div class="skill-category animate__animated animate__fadeInUp">
+        <h3><i class="fas fa-tools"></i> Tools &amp; Other</h3>
+        <ul>
+          <li>Git &amp; GitHub</li>
+          <li>Firebase</li>
+          <li>Microsoft Azure</li>
+          <li>GCP</li>
+          <li>C#</li>
+          <li>Python</li>
+          <li>Figma</li>
+
+
+        </ul>
+      </div>
+      
+    </div>
+  </section>
+  
+  <!-- Work Experience Section -->
+  <section id="experience" class="animate__animated animate__fadeInUp">
+    <h2 class="section-title"><i class="fas fa-briefcase"></i> Work Experience</h2>
+    <div class="divider"></div>
+    <div class="timeline">
+      <div class="timeline-item animate__animated animate__fadeInUp">
+        <h3>Independent Living Sudbury and Manitoulin</h3>
+        <span>Tech Support | January 2025</span>
+        <p>Provided technical support and troubleshooting for clients, ensuring smooth operations and user satisfaction.</p>
+      </div>
+      <div class="timeline-item animate__animated animate__fadeInUp">
+        <h3>Invisible Technologies Inc.</h3>
+        <span>Advanced AI Data Trainer | May 2024 – Dec. 2024</span>
+        <p>Performed quality checks on annotated data, identified errors, and contributed to team goals while staying updated with AI advancements.</p>
+      </div>
+      <div class="timeline-item animate__animated animate__fadeInUp">
+        <h3>Youverify Inc.</h3>
+        <span>Software Engineering Intern | Nov. 2021 – Jul. 2022</span>
+        <p>Converted UI/UX wireframes into responsive front-end code and collaborated with teams using Agile methodologies.</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Education Section -->
+  <section id="education" class="animate__animated animate__fadeInUp">
+    <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Education</h2>
+    <div class="divider"></div>
+    <div class="timeline">
+      <div class="timeline-item animate__animated animate__fadeInUp">
+        <h3>Cambrian College, Sudbury, ON</h3>
+        <span>Graduate Certificate in Mobile Application &amp; Web Development | May 2024 - April 2025</span>
+      </div>
+      <div class="timeline-item animate__animated animate__fadeInUp">
+        <h3>ALX Software Engineering (in partnership with Holberton School, USA)</h3>
+        <span>Diploma | Sep. 2022 - Aug. 2023</span>
+      </div>
+      <div class="timeline-item animate__animated animate__fadeInUp">
+        <h3>B.Eng in Civil Engineering</h3>
+        <span>Anambra State University Uli, Nigeria | 2008</span>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Contact Section -->
+  <section id="contact" class="animate__animated animate__fadeInUp">
+    <h2 class="section-title"><i class="fas fa-envelope"></i> Contact</h2>
+    <div class="divider"></div>
+    <p>
+      Phone: +1 (705) 618 6139<br />
+      Email: <a href="mailto:manos.akpujiha@gmail.com">manos.akpujiha@gmail.com</a><br />
+      GitHub: <a href="https://github.com/manosakpujiha" target="_blank">github.com/manosakpujiha</a><br />
+      LinkedIn: <a href="https://linkedin.com/in/manosakpujiha" target="_blank">linkedin.com/in/manosakpujiha</a>
+    </p>
+    <a class="button" href="mailto:manos.akpujiha@gmail.com">Get in Touch</a>
+  </section>
+  
+  <footer class="animate__animated animate__fadeInUp">
+    <p>&copy; 2025 Manos Akpujiha. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
